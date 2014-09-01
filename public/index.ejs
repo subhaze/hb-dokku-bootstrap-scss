@@ -1,0 +1,22 @@
+<div class="page-header">
+	<h1>Harp app deployable to dokku.</h1>
+</div>
+<p class="lead">
+	 Contains jQuery and Bootstrap SCSS source files with slight modifications to _variables.scss. jQuery and bootstrap.js are both loaded via a CDN and fall back to the local versions when unable to load via the CDNs.
+</p>
+<div class="callout callout-info">
+	<h4>Bootstrap _variable modifications:</h4>
+	<ul>
+		<li>Changes <code>$line-height-base</code> to 1.42858</li>
+		<li>Changes <code>$icon-font-path</code> to "/fonts/bootstrap/"</li>
+	</ul>
+</div>
+<div class="callout callout-info">
+	<h4>IE 8 fall backs</h4>
+	<p>
+		respond.js and es5-shim are loaded via CDN with fall backs as well, but, are wrapped in a <code>if lt IE 9</code>.
+	</p>
+</div>
+<p>
+	Back to <a href="https://github.com/subhaze/hb-dokku-bootstrap-scss"><i class="glyphicon glyphicon-link"></i> the Github repo</a>.
+</p>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="/stylesheets/main.css">
+		<!--[if lt IE 9]>
+		    <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js">
+		    <script>window.respond || document.write('<script src="/javascripts/vendors/respond.js">\x3C/script>')</script>
+		<![endif]-->
+	</head>
+	<body>
+		<%- partial('_partials/nav.ejs') %>
+		<main class="container-fluid page-max-width">
+			<%- yield %>
+		</main>
+		<%- partial('_partials/footer.ejs') %>
+		<%- partial('_scripts.ejs') %>
+	</body>
+</html>

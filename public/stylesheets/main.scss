@@ -1,0 +1,17 @@
+@import "vendors/bootstrap";
+@import "_variables";
+@import "_callouts";
+@import "../_partials/footer";
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body > main{
+	padding-top: 60px;
+}
+
+.page-max-width{
+	max-width: 1170px;
+}
